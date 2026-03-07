@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-07T18:48:41 IST" name="CartIQ Automation Suite" finished-at="2026-03-07T18:49:21 IST" duration-ms="40071">
+    <groups>
+    </groups>
+    <test started-at="2026-03-07T18:48:41 IST" name="Test" finished-at="2026-03-07T18:49:21 IST" duration-ms="40071">
+      <class name="com.cartiq.PageTest.LoginTest">
+        <test-method is-config="true" signature="setupExtent()[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-07T18:48:41 IST" name="setupExtent" finished-at="2026-03-07T18:48:41 IST" duration-ms="550" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupExtent -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-07T18:48:44 IST" name="setup" finished-at="2026-03-07T18:48:48 IST" duration-ms="4694" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.cartiq.PageTest.LoginTest.User(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="User(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-07T18:48:48 IST" name="User" data-provider="loginData" finished-at="2026-03-07T18:48:51 IST" duration-ms="2860" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC001]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[success]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- User -->
+        <test-method is-config="true" signature="CheckResutl(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-07T18:48:51 IST" name="CheckResutl" finished-at="2026-03-07T18:48:52 IST" duration-ms="726" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.cartiq.PageTest.LoginTest.User(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=User status=SUCCESS method=LoginTest.User(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckResutl -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-07T18:48:52 IST" name="setup" finished-at="2026-03-07T18:48:54 IST" duration-ms="1765" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.cartiq.PageTest.LoginTest.User(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="User(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-07T18:48:54 IST" name="User" data-provider="loginData" finished-at="2026-03-07T18:48:55 IST" duration-ms="1373" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC002]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[wrongpass]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[failure]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- User -->
+        <test-method is-config="true" signature="CheckResutl(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-07T18:48:55 IST" name="CheckResutl" finished-at="2026-03-07T18:48:55 IST" duration-ms="341" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.cartiq.PageTest.LoginTest.User(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=User status=SUCCESS method=LoginTest.User(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckResutl -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-07T18:48:55 IST" name="setup" finished-at="2026-03-07T18:48:57 IST" duration-ms="1396" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.cartiq.PageTest.LoginTest.User(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="User(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-07T18:48:57 IST" name="User" data-provider="loginData" finished-at="2026-03-07T18:48:58 IST" duration-ms="1631" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC003]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[invalid_user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[failure]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- User -->
+        <test-method is-config="true" signature="CheckResutl(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-07T18:48:58 IST" name="CheckResutl" finished-at="2026-03-07T18:48:59 IST" duration-ms="643" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.cartiq.PageTest.LoginTest.User(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=User status=SUCCESS method=LoginTest.User(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckResutl -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-07T18:48:59 IST" name="setup" finished-at="2026-03-07T18:49:01 IST" duration-ms="1607" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.cartiq.PageTest.LoginTest.User(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="User(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-07T18:49:01 IST" name="User" data-provider="loginData" finished-at="2026-03-07T18:49:02 IST" duration-ms="1269" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC004]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[failure]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- User -->
+        <test-method is-config="true" signature="CheckResutl(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-07T18:49:02 IST" name="CheckResutl" finished-at="2026-03-07T18:49:02 IST" duration-ms="328" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.cartiq.PageTest.LoginTest.User(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=User status=SUCCESS method=LoginTest.User(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckResutl -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-07T18:49:02 IST" name="setup" finished-at="2026-03-07T18:49:04 IST" duration-ms="1301" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.cartiq.PageTest.LoginTest.User(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="User(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-07T18:49:04 IST" name="User" data-provider="loginData" finished-at="2026-03-07T18:49:05 IST" duration-ms="1330" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC005]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[failure]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- User -->
+        <test-method is-config="true" signature="CheckResutl(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-07T18:49:05 IST" name="CheckResutl" finished-at="2026-03-07T18:49:05 IST" duration-ms="376" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.cartiq.PageTest.LoginTest.User(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=User status=SUCCESS method=LoginTest.User(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckResutl -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-07T18:49:05 IST" name="setup" finished-at="2026-03-07T18:49:07 IST" duration-ms="1389" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.cartiq.PageTest.LoginTest.User(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="User(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-07T18:49:07 IST" name="User" data-provider="loginData" finished-at="2026-03-07T18:49:08 IST" duration-ms="1323" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC006]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[failure]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- User -->
+        <test-method is-config="true" signature="CheckResutl(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-07T18:49:08 IST" name="CheckResutl" finished-at="2026-03-07T18:49:08 IST" duration-ms="346" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.cartiq.PageTest.LoginTest.User(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=User status=SUCCESS method=LoginTest.User(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckResutl -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-07T18:49:08 IST" name="setup" finished-at="2026-03-07T18:49:10 IST" duration-ms="1229" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.cartiq.PageTest.LoginTest.User(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="User(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-07T18:49:10 IST" name="User" data-provider="loginData" finished-at="2026-03-07T18:49:11 IST" duration-ms="1367" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC007]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[failure]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- User -->
+        <test-method is-config="true" signature="CheckResutl(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-07T18:49:11 IST" name="CheckResutl" finished-at="2026-03-07T18:49:11 IST" duration-ms="327" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.cartiq.PageTest.LoginTest.User(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=User status=SUCCESS method=LoginTest.User(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckResutl -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-07T18:49:11 IST" name="setup" finished-at="2026-03-07T18:49:13 IST" duration-ms="1294" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.cartiq.PageTest.LoginTest.User(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="User(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-07T18:49:13 IST" name="User" data-provider="loginData" finished-at="2026-03-07T18:49:14 IST" duration-ms="1745" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC008]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Secret_sauce]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[failure]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- User -->
+        <test-method is-config="true" signature="CheckResutl(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-07T18:49:14 IST" name="CheckResutl" finished-at="2026-03-07T18:49:15 IST" duration-ms="334" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.cartiq.PageTest.LoginTest.User(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=User status=SUCCESS method=LoginTest.User(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckResutl -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-07T18:49:15 IST" name="setup" finished-at="2026-03-07T18:49:16 IST" duration-ms="1108" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.cartiq.PageTest.LoginTest.User(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="User(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-07T18:49:16 IST" name="User" data-provider="loginData" finished-at="2026-03-07T18:49:18 IST" duration-ms="1950" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC009]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[STANDARD_USER]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[failure]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- User -->
+        <test-method is-config="true" signature="CheckResutl(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-07T18:49:18 IST" name="CheckResutl" finished-at="2026-03-07T18:49:18 IST" duration-ms="327" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.cartiq.PageTest.LoginTest.User(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=User status=SUCCESS method=LoginTest.User(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckResutl -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-07T18:49:18 IST" name="setup" finished-at="2026-03-07T18:49:19 IST" duration-ms="1123" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.cartiq.PageTest.LoginTest.User(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="User(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-07T18:49:19 IST" name="User" data-provider="loginData" finished-at="2026-03-07T18:49:21 IST" duration-ms="1740" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC010]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[success]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- User -->
+        <test-method is-config="true" signature="CheckResutl(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-07T18:49:21 IST" name="CheckResutl" finished-at="2026-03-07T18:49:21 IST" duration-ms="446" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.cartiq.PageTest.LoginTest.User(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=User status=SUCCESS method=LoginTest.User(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckResutl -->
+        <test-method is-config="true" signature="exit()[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-07T18:49:21 IST" name="exit" finished-at="2026-03-07T18:49:22 IST" duration-ms="655" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+      </class> <!-- com.cartiq.PageTest.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- CartIQ Automation Suite -->
+</testng-results>

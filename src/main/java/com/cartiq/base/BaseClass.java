@@ -16,8 +16,9 @@ import org.testng.ITestContext;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.BeforeTest;
+
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
@@ -48,21 +49,21 @@ public class BaseClass {
 		extent.setSystemInfo("Tester", "Ruchith");
 	}
 	
-	@BeforeTest
-	public void setup(ITestContext context)
-	{
-		WebDriverManager.chromedriver().setup();
-		 driver=new ChromeDriver();
-		 driver.manage().window().maximize();
-		 wait=new WebDriverWait(driver, Duration.ofSeconds(10));
-		 extentTest = extent.createTest(
-		            context.getName()
-		        );
-		
-	}
+	 @BeforeMethod
+	    public void setup(Method method) {
+	        WebDriverManager.chromedriver().setup();
+	        driver = new ChromeDriver();
+	        driver.manage().window().maximize();
+	        wait = new WebDriverWait(driver,
+	                   Duration.ofSeconds(10));
+	        
+	        extentTest = extent.createTest(
+	            method.getName()
+	        );
+	    }
 	
 	@AfterMethod
-	public void CheckResutl( Method method , ITestResult result) throws IOException
+	public void CheckResutl(Method method , ITestResult result) throws IOException
 	{
 		if(result.getStatus()==ITestResult.FAILURE)
 		{

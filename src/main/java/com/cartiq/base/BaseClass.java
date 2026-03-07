@@ -1,0 +1,114 @@
+package com.cartiq.base;
+
+import java.io.File;
+import java.io.IOException;
+import java.lang.reflect.Method;
+import java.text.SimpleDateFormat;
+import java.time.Duration;
+import java.util.Date;
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.ITestContext;
+import org.testng.ITestResult;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.BeforeTest;
+
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.reporter.ExtentSparkReporter;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class BaseClass {
+
+	public WebDriver driver;
+	public WebDriverWait wait;
+	public static ExtentReports extent;
+	public static ExtentTest extentTest;
+	
+	@BeforeSuite
+	public void setupExtent()
+	{
+		ExtentSparkReporter extentSparkReporter=new ExtentSparkReporter("ExtenetReport.html");
+		
+		extentSparkReporter.config().setReportName("Automation Testing Project");
+		extentSparkReporter.config().setDocumentTitle("Project E-commerece");
+		
+		extent=new ExtentReports();
+		extent.attachReporter(extentSparkReporter);
+		
+		extent.setSystemInfo("Os", System.getProperty("os.name"));
+		extent.setSystemInfo("Java Version", System.getProperty("java.version"));
+		extent.setSystemInfo("Tester", "Ruchith");
+	}
+	
+	@BeforeTest
+	public void setup(ITestContext context)
+	{
+		WebDriverManager.chromedriver().setup();
+		 driver=new ChromeDriver();
+		 driver.manage().window().maximize();
+		 wait=new WebDriverWait(driver, Duration.ofSeconds(10));
+		 extentTest = extent.createTest(
+		            context.getName()
+		        );
+		
+	}
+	
+	@AfterMethod
+	public void CheckResutl( Method method , ITestResult result) throws IOException
+	{
+		if(result.getStatus()==ITestResult.FAILURE)
+		{
+			String path = capturescreenshot(result.getName());
+			extentTest.fail(result.getThrowable().getMessage());
+			extentTest.addScreenCaptureFromPath(path);
+		}
+		else if(result.getStatus()==ITestResult.SUCCESS)
+		{
+			extentTest.pass(result.getName() + "Passed");
+		}
+		
+		String[] groups = method.getAnnotation(
+			    org.testng.annotations.Test.class
+			).groups();
+			extentTest.assignCategory(groups); 
+			 if (driver != null) {
+		            driver.quit();
+		        }
+	}
+	public String capturescreenshot(String testname) throws IOException
+	{
+		try {
+			File folder=new File("screenshots/");
+			if(!folder.exists())
+			{
+				 folder.mkdirs();
+			}
+	        String timestamp =   new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
+	        String path="screenshots/" + testname + "_" + timestamp + ".png";
+	        TakesScreenshot screenshot= (TakesScreenshot) driver;
+			File sourcefile= screenshot.getScreenshotAs(OutputType.FILE);
+	        FileUtils.copyFile(sourcefile, new File(path));
+	        return path;
+		} catch (Exception e) {
+			e.printStackTrace();
+	        return "";
+		}
+		
+		
+		
+		
+	}
+	@AfterSuite
+	public void exit()
+	{
+		extent.flush();
+	}
+}

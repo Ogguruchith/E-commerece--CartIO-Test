@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-07T18:48:41 IST" name="CartIQ Automation Suite" finished-at="2026-03-07T18:49:21 IST" duration-ms="40071">
+  <suite started-at="2026-03-08T12:30:59 IST" name="CartIQ Automation Suite" finished-at="2026-03-08T12:31:42 IST" duration-ms="42722">
     <groups>
     </groups>
-    <test started-at="2026-03-07T18:48:41 IST" name="Test" finished-at="2026-03-07T18:49:21 IST" duration-ms="40071">
+    <test started-at="2026-03-08T12:30:59 IST" name="Test" finished-at="2026-03-08T12:31:36 IST" duration-ms="36736">
       <class name="com.cartiq.PageTest.LoginTest">
-        <test-method is-config="true" signature="setupExtent()[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-07T18:48:41 IST" name="setupExtent" finished-at="2026-03-07T18:48:41 IST" duration-ms="550" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupExtent -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-07T18:48:44 IST" name="setup" finished-at="2026-03-07T18:48:48 IST" duration-ms="4694" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-08T12:31:01 IST" name="setup" finished-at="2026-03-08T12:31:05 IST" duration-ms="3873" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="User(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-07T18:48:48 IST" name="User" data-provider="loginData" finished-at="2026-03-07T18:48:51 IST" duration-ms="2860" status="PASS">
+        <test-method signature="User(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-08T12:31:05 IST" name="User" data-provider="loginData" finished-at="2026-03-08T12:31:08 IST" duration-ms="2375" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -48,7 +44,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- User -->
-        <test-method is-config="true" signature="CheckResutl(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-07T18:48:51 IST" name="CheckResutl" finished-at="2026-03-07T18:48:52 IST" duration-ms="726" status="PASS">
+        <test-method is-config="true" signature="CheckResutl(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-08T12:31:08 IST" name="CheckResutl" finished-at="2026-03-08T12:31:08 IST" duration-ms="450" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -64,7 +60,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckResutl -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-07T18:48:52 IST" name="setup" finished-at="2026-03-07T18:48:54 IST" duration-ms="1765" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-08T12:31:08 IST" name="setup" finished-at="2026-03-08T12:31:09 IST" duration-ms="1333" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -75,7 +71,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="User(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-07T18:48:54 IST" name="User" data-provider="loginData" finished-at="2026-03-07T18:48:55 IST" duration-ms="1373" status="PASS">
+        <test-method signature="User(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-08T12:31:09 IST" name="User" data-provider="loginData" finished-at="2026-03-08T12:31:11 IST" duration-ms="1574" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -101,7 +97,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- User -->
-        <test-method is-config="true" signature="CheckResutl(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-07T18:48:55 IST" name="CheckResutl" finished-at="2026-03-07T18:48:55 IST" duration-ms="341" status="PASS">
+        <test-method is-config="true" signature="CheckResutl(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-08T12:31:11 IST" name="CheckResutl" finished-at="2026-03-08T12:31:11 IST" duration-ms="337" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -117,7 +113,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckResutl -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-07T18:48:55 IST" name="setup" finished-at="2026-03-07T18:48:57 IST" duration-ms="1396" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-08T12:31:11 IST" name="setup" finished-at="2026-03-08T12:31:13 IST" duration-ms="1221" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -128,7 +124,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="User(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-07T18:48:57 IST" name="User" data-provider="loginData" finished-at="2026-03-07T18:48:58 IST" duration-ms="1631" status="PASS">
+        <test-method signature="User(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-08T12:31:13 IST" name="User" data-provider="loginData" finished-at="2026-03-08T12:31:14 IST" duration-ms="1448" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -154,7 +150,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- User -->
-        <test-method is-config="true" signature="CheckResutl(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-07T18:48:58 IST" name="CheckResutl" finished-at="2026-03-07T18:48:59 IST" duration-ms="643" status="PASS">
+        <test-method is-config="true" signature="CheckResutl(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-08T12:31:14 IST" name="CheckResutl" finished-at="2026-03-08T12:31:14 IST" duration-ms="271" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -170,7 +166,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckResutl -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-07T18:48:59 IST" name="setup" finished-at="2026-03-07T18:49:01 IST" duration-ms="1607" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-08T12:31:14 IST" name="setup" finished-at="2026-03-08T12:31:15 IST" duration-ms="1147" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -181,7 +177,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="User(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-07T18:49:01 IST" name="User" data-provider="loginData" finished-at="2026-03-07T18:49:02 IST" duration-ms="1269" status="PASS">
+        <test-method signature="User(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-08T12:31:15 IST" name="User" data-provider="loginData" finished-at="2026-03-08T12:31:17 IST" duration-ms="1472" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -207,7 +203,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- User -->
-        <test-method is-config="true" signature="CheckResutl(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-07T18:49:02 IST" name="CheckResutl" finished-at="2026-03-07T18:49:02 IST" duration-ms="328" status="PASS">
+        <test-method is-config="true" signature="CheckResutl(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-08T12:31:17 IST" name="CheckResutl" finished-at="2026-03-08T12:31:17 IST" duration-ms="305" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -223,7 +219,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckResutl -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-07T18:49:02 IST" name="setup" finished-at="2026-03-07T18:49:04 IST" duration-ms="1301" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-08T12:31:17 IST" name="setup" finished-at="2026-03-08T12:31:18 IST" duration-ms="1110" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -234,7 +230,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="User(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-07T18:49:04 IST" name="User" data-provider="loginData" finished-at="2026-03-07T18:49:05 IST" duration-ms="1330" status="PASS">
+        <test-method signature="User(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-08T12:31:18 IST" name="User" data-provider="loginData" finished-at="2026-03-08T12:31:20 IST" duration-ms="1651" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -260,7 +256,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- User -->
-        <test-method is-config="true" signature="CheckResutl(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-07T18:49:05 IST" name="CheckResutl" finished-at="2026-03-07T18:49:05 IST" duration-ms="376" status="PASS">
+        <test-method is-config="true" signature="CheckResutl(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-08T12:31:20 IST" name="CheckResutl" finished-at="2026-03-08T12:31:20 IST" duration-ms="288" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -276,7 +272,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckResutl -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-07T18:49:05 IST" name="setup" finished-at="2026-03-07T18:49:07 IST" duration-ms="1389" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-08T12:31:20 IST" name="setup" finished-at="2026-03-08T12:31:21 IST" duration-ms="1145" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -287,7 +283,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="User(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-07T18:49:07 IST" name="User" data-provider="loginData" finished-at="2026-03-07T18:49:08 IST" duration-ms="1323" status="PASS">
+        <test-method signature="User(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-08T12:31:21 IST" name="User" data-provider="loginData" finished-at="2026-03-08T12:31:23 IST" duration-ms="1572" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -313,7 +309,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- User -->
-        <test-method is-config="true" signature="CheckResutl(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-07T18:49:08 IST" name="CheckResutl" finished-at="2026-03-07T18:49:08 IST" duration-ms="346" status="PASS">
+        <test-method is-config="true" signature="CheckResutl(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-08T12:31:23 IST" name="CheckResutl" finished-at="2026-03-08T12:31:24 IST" duration-ms="565" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -329,7 +325,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckResutl -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-07T18:49:08 IST" name="setup" finished-at="2026-03-07T18:49:10 IST" duration-ms="1229" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-08T12:31:24 IST" name="setup" finished-at="2026-03-08T12:31:25 IST" duration-ms="1078" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -340,7 +336,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="User(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-07T18:49:10 IST" name="User" data-provider="loginData" finished-at="2026-03-07T18:49:11 IST" duration-ms="1367" status="PASS">
+        <test-method signature="User(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-08T12:31:25 IST" name="User" data-provider="loginData" finished-at="2026-03-08T12:31:26 IST" duration-ms="1467" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -366,7 +362,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- User -->
-        <test-method is-config="true" signature="CheckResutl(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-07T18:49:11 IST" name="CheckResutl" finished-at="2026-03-07T18:49:11 IST" duration-ms="327" status="PASS">
+        <test-method is-config="true" signature="CheckResutl(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-08T12:31:26 IST" name="CheckResutl" finished-at="2026-03-08T12:31:26 IST" duration-ms="346" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -382,7 +378,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckResutl -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-07T18:49:11 IST" name="setup" finished-at="2026-03-07T18:49:13 IST" duration-ms="1294" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-08T12:31:26 IST" name="setup" finished-at="2026-03-08T12:31:27 IST" duration-ms="1035" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -393,7 +389,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="User(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-07T18:49:13 IST" name="User" data-provider="loginData" finished-at="2026-03-07T18:49:14 IST" duration-ms="1745" status="PASS">
+        <test-method signature="User(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-08T12:31:27 IST" name="User" data-provider="loginData" finished-at="2026-03-08T12:31:29 IST" duration-ms="1527" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -419,7 +415,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- User -->
-        <test-method is-config="true" signature="CheckResutl(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-07T18:49:14 IST" name="CheckResutl" finished-at="2026-03-07T18:49:15 IST" duration-ms="334" status="PASS">
+        <test-method is-config="true" signature="CheckResutl(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-08T12:31:29 IST" name="CheckResutl" finished-at="2026-03-08T12:31:29 IST" duration-ms="449" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -435,7 +431,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckResutl -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-07T18:49:15 IST" name="setup" finished-at="2026-03-07T18:49:16 IST" duration-ms="1108" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-08T12:31:29 IST" name="setup" finished-at="2026-03-08T12:31:30 IST" duration-ms="922" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -446,7 +442,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="User(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-07T18:49:16 IST" name="User" data-provider="loginData" finished-at="2026-03-07T18:49:18 IST" duration-ms="1950" status="PASS">
+        <test-method signature="User(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-08T12:31:30 IST" name="User" data-provider="loginData" finished-at="2026-03-08T12:31:32 IST" duration-ms="1399" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -472,7 +468,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- User -->
-        <test-method is-config="true" signature="CheckResutl(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-07T18:49:18 IST" name="CheckResutl" finished-at="2026-03-07T18:49:18 IST" duration-ms="327" status="PASS">
+        <test-method is-config="true" signature="CheckResutl(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-08T12:31:32 IST" name="CheckResutl" finished-at="2026-03-08T12:31:32 IST" duration-ms="246" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -488,7 +484,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckResutl -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-07T18:49:18 IST" name="setup" finished-at="2026-03-07T18:49:19 IST" duration-ms="1123" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-08T12:31:32 IST" name="setup" finished-at="2026-03-08T12:31:33 IST" duration-ms="944" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -499,7 +495,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="User(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-07T18:49:19 IST" name="User" data-provider="loginData" finished-at="2026-03-07T18:49:21 IST" duration-ms="1740" status="PASS">
+        <test-method signature="User(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-08T12:31:33 IST" name="User" data-provider="loginData" finished-at="2026-03-08T12:31:35 IST" duration-ms="2361" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -525,7 +521,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- User -->
-        <test-method is-config="true" signature="CheckResutl(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-07T18:49:21 IST" name="CheckResutl" finished-at="2026-03-07T18:49:21 IST" duration-ms="446" status="PASS">
+        <test-method is-config="true" signature="CheckResutl(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-08T12:31:35 IST" name="CheckResutl" finished-at="2026-03-08T12:31:36 IST" duration-ms="282" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -541,11 +537,50 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckResutl -->
-        <test-method is-config="true" signature="exit()[pri:0, instance:com.cartiq.PageTest.LoginTest@179ece50]" started-at="2026-03-07T18:49:21 IST" name="exit" finished-at="2026-03-07T18:49:22 IST" duration-ms="655" status="PASS">
+      </class> <!-- com.cartiq.PageTest.LoginTest -->
+    </test> <!-- Test -->
+    <test started-at="2026-03-08T12:31:36 IST" name="Test1" finished-at="2026-03-08T12:31:42 IST" duration-ms="5950">
+      <class name="com.cartiq.PageTest.HomePageTest">
+        <test-method is-config="true" signature="setupExtent()[pri:0, instance:com.cartiq.PageTest.HomePageTest@2df3b89c]" started-at="2026-03-08T12:30:58 IST" name="setupExtent" finished-at="2026-03-08T12:30:59 IST" duration-ms="591" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupExtent -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.cartiq.PageTest.HomePageTest@2df3b89c]" started-at="2026-03-08T12:31:36 IST" name="setup" finished-at="2026-03-08T12:31:37 IST" duration-ms="1001" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.cartiq.PageTest.HomePageTest.verifyHomePageLoaded()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyHomePageLoaded()[pri:0, instance:com.cartiq.PageTest.HomePageTest@2df3b89c]" started-at="2026-03-08T12:31:37 IST" name="verifyHomePageLoaded" finished-at="2026-03-08T12:31:41 IST" duration-ms="4641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageLoaded -->
+        <test-method is-config="true" signature="CheckResutl(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.cartiq.PageTest.HomePageTest@2df3b89c]" started-at="2026-03-08T12:31:41 IST" name="CheckResutl" finished-at="2026-03-08T12:31:42 IST" duration-ms="302" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.cartiq.PageTest.HomePageTest.verifyHomePageLoaded()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=verifyHomePageLoaded status=SUCCESS method=HomePageTest.verifyHomePageLoaded()[pri:0, instance:com.cartiq.PageTest.HomePageTest@2df3b89c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckResutl -->
+        <test-method is-config="true" signature="exit()[pri:0, instance:com.cartiq.PageTest.HomePageTest@2df3b89c]" started-at="2026-03-08T12:31:42 IST" name="exit" finished-at="2026-03-08T12:31:42 IST" duration-ms="605" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exit -->
-      </class> <!-- com.cartiq.PageTest.LoginTest -->
-    </test> <!-- Test -->
+      </class> <!-- com.cartiq.PageTest.HomePageTest -->
+    </test> <!-- Test1 -->
   </suite> <!-- CartIQ Automation Suite -->
 </testng-results>

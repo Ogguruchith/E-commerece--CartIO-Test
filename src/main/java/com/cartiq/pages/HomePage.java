@@ -66,7 +66,7 @@ public class HomePage {
 	public int getCartCount() {
         try {
             return Integer.parseInt(
-                driver.findElement( By.className("shopping_cart_badge"))
+                driver.findElement(By.className("shopping_cart_badge"))
                     .getText()
             );
         } catch (Exception e) {

@@ -6,13 +6,17 @@ import java.lang.reflect.Method;
 import java.text.SimpleDateFormat;
 import java.time.Duration;
 import java.util.Date;
+import java.util.HashMap;
+import java.util.Map;
+
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.ITestContext;
+
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
@@ -52,14 +56,27 @@ public class BaseClass {
 	 @BeforeMethod
 	    public void setup(Method method) {
 	        WebDriverManager.chromedriver().setup();
-	        driver = new ChromeDriver();
-	        driver.manage().window().maximize();
-	        wait = new WebDriverWait(driver,
-	                   Duration.ofSeconds(10));
+	        ChromeOptions options = new ChromeOptions();
+	        options.addArguments( "--disable-save-password-bubble");
+	        options.addArguments("--disable-features=PasswordLeakDetection");
+	        options.addArguments("--password-store=basic");
+	        options.addArguments("--disable-notifications");
+	        options.addArguments("--no-default-browser-check");
+
+	            // ✅ Remove automation bar
+	            options.setExperimentalOption("excludeSwitches",new String[]{"enable-automation"});
+
+	            // ✅ Disable password manager completely!
+	            Map<String, Object> prefs = new HashMap<>();
+	            prefs.put("credentials_enable_service", false);
+	            prefs.put("profile.password_manager_enabled",false);
+	            prefs.put("profile.password_manager_leak_detection",false);
+	            options.setExperimentalOption("prefs", prefs);
+	        driver = new ChromeDriver(options);
 	        
-	        extentTest = extent.createTest(
-	            method.getName()
-	        );
+	        wait = new WebDriverWait(driver,Duration.ofSeconds(10));
+	        
+	        extentTest = extent.createTest(method.getName());
 	    }
 	
 	@AfterMethod
@@ -76,9 +93,7 @@ public class BaseClass {
 			extentTest.pass(result.getName() + "Passed");
 		}
 		
-		String[] groups = method.getAnnotation(
-			    org.testng.annotations.Test.class
-			).groups();
+		String[] groups = method.getAnnotation(org.testng.annotations.Test.class).groups();
 			extentTest.assignCategory(groups); 
 			 if (driver != null) {
 		            driver.quit();

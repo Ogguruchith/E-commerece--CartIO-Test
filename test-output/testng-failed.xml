@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite data-provider-thread-count="3" name="Failed suite [CartIQ Automation Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Test1(failed)">
+  <test thread-count="5" name="Test4(failed)">
     <classes>
-      <class name="com.cartiq.PageTest.HomePageTest">
+      <class name="com.cartiq.PageTest.CheckoutTest">
         <methods>
-          <include name="verifyHomePageLoaded"/>
           <include name="CheckResutl"/>
           <include name="exit"/>
+          <include name="checkoutTest"/>
           <include name="setup"/>
           <include name="setupExtent"/>
         </methods>
-      </class> <!-- com.cartiq.PageTest.HomePageTest -->
+      </class> <!-- com.cartiq.PageTest.CheckoutTest -->
     </classes>
-  </test> <!-- Test1(failed) -->
+  </test> <!-- Test4(failed) -->
 </suite> <!-- Failed suite [CartIQ Automation Suite] -->

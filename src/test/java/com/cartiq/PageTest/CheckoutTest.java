@@ -15,7 +15,7 @@ public class CheckoutTest extends BaseClass {
 	public void checkoutTest() {
 		driver.get("https://www.saucedemo.com/");
 		LoginClass login = new LoginClass(driver);
-		login.enterusername("standard_user");
+		login.enterusername("standard");
 		login.enterpassword("secret_sauce");
 		login.clicksubmit();
 

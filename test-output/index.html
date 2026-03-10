@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-CartIQ_Automation_Suite" class="navigator-link">
-              <span class="suite-name border-passed">CartIQ Automation Suite</span>
+              <span class="suite-name border-failed">CartIQ Automation Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,7 +92,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">14 methods,   14 passed</span>
+                    <span class="method-stats">14 methods, 1 failed,   13 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-CartIQ_Automation_Suite" class="hide-methods failed suite-CartIQ_Automation_Suite"> (hide)</a> <!-- hide-methods failed suite-CartIQ_Automation_Suite -->
+                      <a href="#" panel-name="suite-CartIQ_Automation_Suite" class="show-methods failed suite-CartIQ_Automation_Suite"> (show)</a> <!-- show-methods failed suite-CartIQ_Automation_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-CartIQ_Automation_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CartIQ_Automation_Suite" title="com.cartiq.PageTest.CheckoutTest" class="method navigator-link" hash-for-method="checkoutTest">checkoutTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-CartIQ_Automation_Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -108,37 +122,12 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-CartIQ_Automation_Suite" title="com.cartiq.PageTest.LoginTest" class="method navigator-link" hash-for-method="User(TC005, standard_user, , failure)">User(TC005, standard_user, , failure)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-CartIQ_Automation_Suite" title="com.cartiq.PageTest.LoginTest" class="method navigator-link" hash-for-method="User(TC010, standard_user, secret_sauce, success)">User(TC010, standard_user, secret_sauce, success)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-CartIQ_Automation_Suite" title="com.cartiq.PageTest.LoginTest" class="method navigator-link" hash-for-method="User(TC007, locked_out_user, secret_sauce, failure)">User(TC007, locked_out_user, secret_sauce, failure)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-CartIQ_Automation_Suite" title="com.cartiq.PageTest.LoginTest" class="method navigator-link" hash-for-method="User(TC004, , secret_sauce, failure)">User(TC004, , secret_sauce, failure)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-CartIQ_Automation_Suite" title="com.cartiq.PageTest.LoginTest" class="method navigator-link" hash-for-method="User(TC006, , , failure)">User(TC006, , , failure)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-CartIQ_Automation_Suite" title="com.cartiq.PageTest.LoginTest" class="method navigator-link" hash-for-method="User(TC008, standard_user, Secret_sauce, failure)">User(TC008, standard_user, Secret_sauce, failure)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-CartIQ_Automation_Suite" title="com.cartiq.PageTest.LoginTest" class="method navigator-link" hash-for-method="User(TC002, standard_user, wrongpass, failure)">User(TC002, standard_user, wrongpass, failure)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-CartIQ_Automation_Suite" title="com.cartiq.PageTest.LoginTest" class="method navigator-link" hash-for-method="User(TC005, standard_user, , failure)">User(TC005, standard_user, , failure)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -148,17 +137,37 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CartIQ_Automation_Suite" title="com.cartiq.PageTest.LoginTest" class="method navigator-link" hash-for-method="User(TC008, standard_user, Secret_sauce, failure)">User(TC008, standard_user, Secret_sauce, failure)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CartIQ_Automation_Suite" title="com.cartiq.PageTest.LoginTest" class="method navigator-link" hash-for-method="User(TC006, , , failure)">User(TC006, , , failure)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-CartIQ_Automation_Suite" title="com.cartiq.PageTest.LoginTest" class="method navigator-link" hash-for-method="User(TC003, invalid_user, secret_sauce, failure)">User(TC003, invalid_user, secret_sauce, failure)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-CartIQ_Automation_Suite" title="com.cartiq.PageTest.CartTest" class="method navigator-link" hash-for-method="cartTest">cartTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-CartIQ_Automation_Suite" title="com.cartiq.PageTest.LoginTest" class="method navigator-link" hash-for-method="User(TC002, standard_user, wrongpass, failure)">User(TC002, standard_user, wrongpass, failure)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-CartIQ_Automation_Suite" title="com.cartiq.PageTest.CheckoutTest" class="method navigator-link" hash-for-method="checkoutTest">checkoutTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-CartIQ_Automation_Suite" title="com.cartiq.PageTest.LoginTest" class="method navigator-link" hash-for-method="User(TC007, locked_out_user, secret_sauce, failure)">User(TC007, locked_out_user, secret_sauce, failure)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CartIQ_Automation_Suite" title="com.cartiq.PageTest.LoginTest" class="method navigator-link" hash-for-method="User(TC010, standard_user, secret_sauce, success)">User(TC010, standard_user, secret_sauce, success)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CartIQ_Automation_Suite" title="com.cartiq.PageTest.CartTest" class="method navigator-link" hash-for-method="cartTest">cartTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -183,9 +192,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-CartIQ_Automation_Suite" class="panel CartIQ_Automation_Suite">
-          <div class="suite-CartIQ_Automation_Suite-class-passed">
+          <div class="suite-CartIQ_Automation_Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
               <span class="class-name">com.cartiq.PageTest.CheckoutTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -194,10 +203,15 @@
                   <a name="checkoutTest">
                   </a> <!-- checkoutTest -->
                   <span class="method-name">checkoutTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: Login Failed! expected [true] but found [false]
+	at com.cartiq.PageTest.CheckoutTest.checkoutTest(CheckoutTest.java:22)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-CartIQ_Automation_Suite-class-passed -->
+          </div> <!-- suite-CartIQ_Automation_Suite-class-failed -->
           <div class="suite-CartIQ_Automation_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -259,30 +273,6 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="User(TC005, standard_user, , failure)">
-                  </a> <!-- User(TC005, standard_user, , failure) -->
-                  <span class="method-name">User</span>
-                  <span class="parameters">(TC005,standard_user,,failure)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="User(TC010, standard_user, secret_sauce, success)">
-                  </a> <!-- User(TC010, standard_user, secret_sauce, success) -->
-                  <span class="method-name">User</span>
-                  <span class="parameters">(TC010,standard_user,secret_sauce,success)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="User(TC007, locked_out_user, secret_sauce, failure)">
-                  </a> <!-- User(TC007, locked_out_user, secret_sauce, failure) -->
-                  <span class="method-name">User</span>
-                  <span class="parameters">(TC007,locked_out_user,secret_sauce,failure)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="User(TC004, , secret_sauce, failure)">
                   </a> <!-- User(TC004, , secret_sauce, failure) -->
                   <span class="method-name">User</span>
@@ -291,26 +281,10 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="User(TC006, , , failure)">
-                  </a> <!-- User(TC006, , , failure) -->
+                  <a name="User(TC005, standard_user, , failure)">
+                  </a> <!-- User(TC005, standard_user, , failure) -->
                   <span class="method-name">User</span>
-                  <span class="parameters">(TC006,,,failure)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="User(TC008, standard_user, Secret_sauce, failure)">
-                  </a> <!-- User(TC008, standard_user, Secret_sauce, failure) -->
-                  <span class="method-name">User</span>
-                  <span class="parameters">(TC008,standard_user,Secret_sauce,failure)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="User(TC002, standard_user, wrongpass, failure)">
-                  </a> <!-- User(TC002, standard_user, wrongpass, failure) -->
-                  <span class="method-name">User</span>
-                  <span class="parameters">(TC002,standard_user,wrongpass,failure)</span>
+                  <span class="parameters">(TC005,standard_user,,failure)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -323,10 +297,50 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
+                  <a name="User(TC008, standard_user, Secret_sauce, failure)">
+                  </a> <!-- User(TC008, standard_user, Secret_sauce, failure) -->
+                  <span class="method-name">User</span>
+                  <span class="parameters">(TC008,standard_user,Secret_sauce,failure)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="User(TC006, , , failure)">
+                  </a> <!-- User(TC006, , , failure) -->
+                  <span class="method-name">User</span>
+                  <span class="parameters">(TC006,,,failure)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="User(TC003, invalid_user, secret_sauce, failure)">
                   </a> <!-- User(TC003, invalid_user, secret_sauce, failure) -->
                   <span class="method-name">User</span>
                   <span class="parameters">(TC003,invalid_user,secret_sauce,failure)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="User(TC002, standard_user, wrongpass, failure)">
+                  </a> <!-- User(TC002, standard_user, wrongpass, failure) -->
+                  <span class="method-name">User</span>
+                  <span class="parameters">(TC002,standard_user,wrongpass,failure)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="User(TC007, locked_out_user, secret_sauce, failure)">
+                  </a> <!-- User(TC007, locked_out_user, secret_sauce, failure) -->
+                  <span class="method-name">User</span>
+                  <span class="parameters">(TC007,locked_out_user,secret_sauce,failure)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="User(TC010, standard_user, secret_sauce, success)">
+                  </a> <!-- User(TC010, standard_user, secret_sauce, success) -->
+                  <span class="method-name">User</span>
+                  <span class="parameters">(TC010,standard_user,secret_sauce,success)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -417,66 +431,66 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(14);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'checkoutTest')
-data.setCell(0, 2, 'com.cartiq.PageTest.CheckoutTest')
-data.setCell(0, 3, 5521);
+data.setCell(0, 1, 'verifyHomePageLoaded')
+data.setCell(0, 2, 'com.cartiq.PageTest.HomePageTest')
+data.setCell(0, 3, 10884);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'cartTest')
 data.setCell(1, 2, 'com.cartiq.PageTest.CartTest')
-data.setCell(1, 3, 5319);
+data.setCell(1, 3, 10094);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'verifyHomePageLoaded')
-data.setCell(2, 2, 'com.cartiq.PageTest.HomePageTest')
-data.setCell(2, 3, 4343);
+data.setCell(2, 1, 'checkoutTest')
+data.setCell(2, 2, 'com.cartiq.PageTest.CheckoutTest')
+data.setCell(2, 3, 6894);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'logoutTest')
-data.setCell(3, 2, 'com.cartiq.PageTest.LogoutTest')
-data.setCell(3, 3, 3579);
+data.setCell(3, 1, 'User')
+data.setCell(3, 2, 'com.cartiq.PageTest.LoginTest')
+data.setCell(3, 3, 6234);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'User')
 data.setCell(4, 2, 'com.cartiq.PageTest.LoginTest')
-data.setCell(4, 3, 3221);
+data.setCell(4, 3, 5640);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'User')
-data.setCell(5, 2, 'com.cartiq.PageTest.LoginTest')
-data.setCell(5, 3, 2143);
+data.setCell(5, 1, 'logoutTest')
+data.setCell(5, 2, 'com.cartiq.PageTest.LogoutTest')
+data.setCell(5, 3, 5488);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'User')
 data.setCell(6, 2, 'com.cartiq.PageTest.LoginTest')
-data.setCell(6, 3, 1801);
+data.setCell(6, 3, 5162);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'User')
 data.setCell(7, 2, 'com.cartiq.PageTest.LoginTest')
-data.setCell(7, 3, 1797);
+data.setCell(7, 3, 4824);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'User')
 data.setCell(8, 2, 'com.cartiq.PageTest.LoginTest')
-data.setCell(8, 3, 1567);
+data.setCell(8, 3, 4801);
 data.setCell(9, 0, 9)
 data.setCell(9, 1, 'User')
 data.setCell(9, 2, 'com.cartiq.PageTest.LoginTest')
-data.setCell(9, 3, 1438);
+data.setCell(9, 3, 4284);
 data.setCell(10, 0, 10)
 data.setCell(10, 1, 'User')
 data.setCell(10, 2, 'com.cartiq.PageTest.LoginTest')
-data.setCell(10, 3, 1422);
+data.setCell(10, 3, 3849);
 data.setCell(11, 0, 11)
 data.setCell(11, 1, 'User')
 data.setCell(11, 2, 'com.cartiq.PageTest.LoginTest')
-data.setCell(11, 3, 1403);
+data.setCell(11, 3, 3755);
 data.setCell(12, 0, 12)
 data.setCell(12, 1, 'User')
 data.setCell(12, 2, 'com.cartiq.PageTest.LoginTest')
-data.setCell(12, 3, 1366);
+data.setCell(12, 3, 3510);
 data.setCell(13, 0, 13)
 data.setCell(13, 1, 'User')
 data.setCell(13, 2, 'com.cartiq.PageTest.LoginTest')
-data.setCell(13, 3, 1260);
+data.setCell(13, 3, 2767);
 window.suiteTableData['CartIQ_Automation_Suite']= { tableData: data, tableDiv: 'times-div-CartIQ_Automation_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 36 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-CartIQ_Automation_Suite">
               </div> <!-- times-div-CartIQ_Automation_Suite -->
             </div> <!-- times-div -->
@@ -512,187 +526,189 @@ return data;
               <div class="chronological-class-name">com.cartiq.PageTest.LoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void com.cartiq.PageTest.LoginTest.User(java.lang.String,java.lang.String,java.lang.String,ja...)</span>
-                <span class="method-start">3313 ms</span>
+                <span class="method-start">3165 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">User(TC001, standard_user, secret_sauce, success)</span>
-                <span class="method-start">7752 ms</span>
+                <span class="method-start">9467 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">CheckResutl(public void com.cartiq.PageTest.LoginTest.User(java.lang.String,java.lang.String,java.lang.String,ja...)</span>
-                <span class="method-start">10981 ms</span>
+                <span class="method-start">13323 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void com.cartiq.PageTest.LoginTest.User(java.lang.String,java.lang.String,java.lang.String,ja...)</span>
-                <span class="method-start">12080 ms</span>
+                <span class="method-start">13706 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">User(TC002, standard_user, wrongpass, failure)</span>
-                <span class="method-start">13512 ms</span>
+                <span class="method-start">15038 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">CheckResutl(public void com.cartiq.PageTest.LoginTest.User(java.lang.String,java.lang.String,java.lang.String,ja...)</span>
-                <span class="method-start">15316 ms</span>
+                <span class="method-start">18795 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void com.cartiq.PageTest.LoginTest.User(java.lang.String,java.lang.String,java.lang.String,ja...)</span>
-                <span class="method-start">16040 ms</span>
+                <span class="method-start">19073 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">User(TC003, invalid_user, secret_sauce, failure)</span>
-                <span class="method-start">17358 ms</span>
+                <span class="method-start">20170 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">CheckResutl(public void com.cartiq.PageTest.LoginTest.User(java.lang.String,java.lang.String,java.lang.String,ja...)</span>
-                <span class="method-start">19161 ms</span>
+                <span class="method-start">22938 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void com.cartiq.PageTest.LoginTest.User(java.lang.String,java.lang.String,java.lang.String,ja...)</span>
-                <span class="method-start">19455 ms</span>
+                <span class="method-start">23195 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">User(TC004, , secret_sauce, failure)</span>
-                <span class="method-start">20606 ms</span>
+                <span class="method-start">24321 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">CheckResutl(public void com.cartiq.PageTest.LoginTest.User(java.lang.String,java.lang.String,java.lang.String,ja...)</span>
-                <span class="method-start">22011 ms</span>
+                <span class="method-start">30557 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void com.cartiq.PageTest.LoginTest.User(java.lang.String,java.lang.String,java.lang.String,ja...)</span>
-                <span class="method-start">22289 ms</span>
+                <span class="method-start">31249 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">User(TC005, standard_user, , failure)</span>
-                <span class="method-start">23302 ms</span>
+                <span class="method-start">33378 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">CheckResutl(public void com.cartiq.PageTest.LoginTest.User(java.lang.String,java.lang.String,java.lang.String,ja...)</span>
-                <span class="method-start">24564 ms</span>
+                <span class="method-start">36891 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void com.cartiq.PageTest.LoginTest.User(java.lang.String,java.lang.String,java.lang.String,ja...)</span>
-                <span class="method-start">24860 ms</span>
+                <span class="method-start">37280 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">User(TC006, , , failure)</span>
-                <span class="method-start">25964 ms</span>
+                <span class="method-start">38965 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">CheckResutl(public void com.cartiq.PageTest.LoginTest.User(java.lang.String,java.lang.String,java.lang.String,ja...)</span>
-                <span class="method-start">27403 ms</span>
+                <span class="method-start">44606 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void com.cartiq.PageTest.LoginTest.User(java.lang.String,java.lang.String,java.lang.String,ja...)</span>
-                <span class="method-start">27757 ms</span>
+                <span class="method-start">44888 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">User(TC007, locked_out_user, secret_sauce, failure)</span>
-                <span class="method-start">28839 ms</span>
+                <span class="method-start">46086 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">CheckResutl(public void com.cartiq.PageTest.LoginTest.User(java.lang.String,java.lang.String,java.lang.String,ja...)</span>
-                <span class="method-start">30263 ms</span>
+                <span class="method-start">50888 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void com.cartiq.PageTest.LoginTest.User(java.lang.String,java.lang.String,java.lang.String,ja...)</span>
-                <span class="method-start">30545 ms</span>
+                <span class="method-start">52199 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">User(TC008, standard_user, Secret_sauce, failure)</span>
-                <span class="method-start">31733 ms</span>
+                <span class="method-start">53570 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">CheckResutl(public void com.cartiq.PageTest.LoginTest.User(java.lang.String,java.lang.String,java.lang.String,ja...)</span>
-                <span class="method-start">33302 ms</span>
+                <span class="method-start">58396 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void com.cartiq.PageTest.LoginTest.User(java.lang.String,java.lang.String,java.lang.String,ja...)</span>
-                <span class="method-start">33567 ms</span>
+                <span class="method-start">58915 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">User(TC009, STANDARD_USER, secret_sauce, failure)</span>
-                <span class="method-start">34673 ms</span>
+                <span class="method-start">60637 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">CheckResutl(public void com.cartiq.PageTest.LoginTest.User(java.lang.String,java.lang.String,java.lang.String,ja...)</span>
-                <span class="method-start">36041 ms</span>
+                <span class="method-start">65801 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void com.cartiq.PageTest.LoginTest.User(java.lang.String,java.lang.String,java.lang.String,ja...)</span>
-                <span class="method-start">36338 ms</span>
+                <span class="method-start">66278 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">User(TC010, standard_user, secret_sauce, success)</span>
-                <span class="method-start">37490 ms</span>
+                <span class="method-start">68154 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">CheckResutl(public void com.cartiq.PageTest.LoginTest.User(java.lang.String,java.lang.String,java.lang.String,ja...)</span>
-                <span class="method-start">39639 ms</span>
+                <span class="method-start">72451 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.cartiq.PageTest.HomePageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void com.cartiq.PageTest.HomePageTest.verifyHomePageLoaded())</span>
-                <span class="method-start">40153 ms</span>
+                <span class="method-start">75073 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyHomePageLoaded</span>
-                <span class="method-start">41519 ms</span>
+                <span class="method-start">76682 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">CheckResutl(public void com.cartiq.PageTest.HomePageTest.verifyHomePageLoaded(), [TestResult name=verifyHomePage...)</span>
-                <span class="method-start">45864 ms</span>
+                <span class="method-start">87569 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.cartiq.PageTest.CartTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void com.cartiq.PageTest.CartTest.cartTest() throws java.lang.InterruptedException)</span>
-                <span class="method-start">46201 ms</span>
+                <span class="method-start">87917 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">cartTest</span>
-                <span class="method-start">47269 ms</span>
+                <span class="method-start">89351 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">CheckResutl(public void com.cartiq.PageTest.CartTest.cartTest() throws java.lang.InterruptedException, [TestResu...)</span>
-                <span class="method-start">52589 ms</span>
+                <span class="method-start">99446 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.cartiq.PageTest.CheckoutTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void com.cartiq.PageTest.CheckoutTest.checkoutTest())</span>
-                <span class="method-start">53146 ms</span>
+                <span class="method-start">99831 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">checkoutTest</span>
-                <span class="method-start">54479 ms</span>
+                <span class="method-start">100998 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">CheckResutl(public void com.cartiq.PageTest.CheckoutTest.checkoutTest(), [TestResult name=checkoutTest status=SU...)</span>
-                <span class="method-start">60001 ms</span>
+                <span class="method-name">CheckResutl(public void com.cartiq.PageTest.CheckoutTest.checkoutTest(), [TestResult name=checkoutTest status=FA...)</span>
+                <span class="method-start">107931 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.cartiq.PageTest.LogoutTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void com.cartiq.PageTest.LogoutTest.logoutTest())</span>
-                <span class="method-start">60467 ms</span>
+                <span class="method-start">111707 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">logoutTest</span>
-                <span class="method-start">61580 ms</span>
+                <span class="method-start">113472 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">CheckResutl(public void com.cartiq.PageTest.LogoutTest.logoutTest(), [TestResult name=logoutTest status=SUCCESS ...)</span>
-                <span class="method-start">65160 ms</span>
+                <span class="method-start">118963 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-suite after">
                 <span class="method-name">exit</span>
-                <span class="method-start">65585 ms</span>
+                <span class="method-start">119380 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

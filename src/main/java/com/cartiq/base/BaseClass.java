@@ -117,10 +117,7 @@ public class BaseClass {
 			e.printStackTrace();
 	        return "";
 		}
-		
-		
-		
-		
+			
 	}
 	@AfterSuite
 	public void exit()

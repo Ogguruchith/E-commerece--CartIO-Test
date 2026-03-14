@@ -26,4 +26,10 @@
 			<class name="com.cartiq.PageTest.LogoutTest" />
 		</classes>
 	</test>
+	<test name="API Tests">
+        <classes>
+            <class name=
+            "com.cartiq.ApiTest.UserApiTest"/>
+        </classes>
+    </test>
 </suite> 

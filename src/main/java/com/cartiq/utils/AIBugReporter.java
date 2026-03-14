@@ -8,12 +8,16 @@ import java.util.Scanner;
 
 public class AIBugReporter {
 
+	// ✅ Changed to gemini-1.5-flash-latest!
 	private static final String API_URL = "https://generativelanguage.googleapis.com"
-			+ "/v1beta/models/gemini-2.0-flash" + ":generateContent?key=";
+			+ "/v1beta/models/gemini-1.5-flash" + ":generateContent?key=";
 
 	private static final String API_KEY = ConfigReader.getProperty("gemini.key");
 
 	public static String analyzeBug(String testName, String errorMessage) {
+
+		System.out.println("=== AIBugReporter Called ===");
+		System.out.println("API Key: " + API_KEY);
 
 		try {
 			String prompt = "My Selenium test '" + testName + "' failed with error: " + errorMessage + ". Give me: "
@@ -34,6 +38,20 @@ public class AIBugReporter {
 			os.flush();
 			os.close();
 
+			int responseCode = conn.getResponseCode();
+			System.out.println("Response Code: " + responseCode);
+
+			if (responseCode != 200) {
+				Scanner errorScanner = new Scanner(conn.getErrorStream());
+				StringBuilder errorResponse = new StringBuilder();
+				while (errorScanner.hasNextLine()) {
+					errorResponse.append(errorScanner.nextLine());
+				}
+				errorScanner.close();
+				System.out.println("Error: " + errorResponse.toString());
+				return "AI analysis unavailable!";
+			}
+
 			Scanner scanner = new Scanner(conn.getInputStream());
 			StringBuilder response = new StringBuilder();
 			while (scanner.hasNextLine()) {
@@ -42,26 +60,21 @@ public class AIBugReporter {
 			scanner.close();
 
 			String result = response.toString();
+			System.out.println("Full Response: " + result);
 
-			// ✅ Debug print!
-			System.out.println("Gemini Response: " + result);
-
-			// ✅ Fixed extraction!
 			int start = result.indexOf("\"text\": \"") + 10;
 			int end = result.indexOf("\\n", start);
-
-			// If \\n not found use next quote
 			if (end == -1) {
 				end = result.indexOf("\"", start);
 			}
 
 			String aiResponse = result.substring(start, end);
-
 			System.out.println("AI Analysis: " + aiResponse);
 
 			return aiResponse;
 
 		} catch (Exception e) {
+			System.out.println("Exception: " + e.getMessage());
 			e.printStackTrace();
 			return "AI analysis unavailable!";
 		}
